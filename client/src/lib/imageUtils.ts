@@ -1,1 +1,158 @@
-LyoqCiAqIFV0aWxpdHkgZnVuY3Rpb25zIGZvciBpbWFnZSBtYW5pcHVsYXRpb24KICovCgovKioKICogR2VuZXJhdGVzIGEgbW9kaWZpZWQgdmVyc2lvbiBvZiB0aGUgY2hhcmFjdGVyIGF2YXRhciBiYXNlZCBvbiB1c2VyIHByb21wdAogKiBUaGlzIHNpbXVsYXRlcyBkaWZmZXJlbnQgInBvc2VzIiBieSBhcHBseWluZyBDU1MgdHJhbnNmb3JtYXRpb25zCiAqLwpleHBvcnQgZnVuY3Rpb24gZ2VuZXJhdGVDaGFyYWN0ZXJQb3NlKGJhc2VJbWFnZVVybDogc3RyaW5nLCBwcm9tcHQ6IHN0cmluZyk6IHN0cmluZyB7CiAgaWYgKCFiYXNlSW1hZ2VVcmwpIHsKICAgIHRocm93IG5ldyBFcnJvcignQmFzZSBpbWFnZSBVUkwgaXMgcmVxdWlyZWQnKTsKICB9CiAgCiAgLy8gQ3JlYXRlIGEgdW5pcXVlIGlkZW50aWZpZXIgZm9yIHRoaXMgcG9zZSBiYXNlZCBvbiB0aGUgcHJvbXB0CiAgY29uc3QgcG9zZUlkID0gZW5jb2RlVVJJQ29tcG9uZW50KChwcm9tcHQgfHwgJycpLnRvTG93ZXJDYXNlKCkudHJpbSgpKQogIAogIC8vIFJldHVybiBhIFVSTCB0aGF0IGluY2x1ZGVzIHRoZSBwb3NlIElEIGFzIGEgcXVlcnkgcGFyYW1ldGVyCiAgLy8gVGhlIGFjdHVhbCBDaGF0TWVzc2FnZSBjb21wb25lbnQgd2lsbCBhcHBseSBDU1MgZWZmZWN0cyBiYXNlZCBvbiB0aGlzCiAgcmV0dXJuIGAke2Jhc2VJbWFnZVVybH0/cG9zZT0ke3Bvc2VJZH1gCn0KCi8qKgogKiBFeHRyYWN0cyBwb3NlIGluZm9ybWF0aW9uIGZyb20gYW4gaW1hZ2UgVVJMIGlmIHByZXNlbnQKICovCmV4cG9ydCBmdW5jdGlvbiBleHRyYWN0UG9zZUluZm8oaW1hZ2VVcmw6IHN0cmluZyk6IHsgdXJsOiBzdHJpbmcsIHBvc2U6IHN0cmluZyB8IG51bGwgfSB7CiAgaWYgKCFpbWFnZVVybCkgcmV0dXJuIHsgdXJsOiAnJywgcG9zZTogbnVsbCB9CiAgCiAgdHJ5IHsKICAgIGNvbnN0IHVybCA9IG5ldyBVUkwoaW1hZ2VVcmwpCiAgICBjb25zdCBwb3NlID0gdXJsLnNlYXJjaFBhcmFtcy5nZXQoJ3Bvc2UnKQogICAgCiAgICAvLyBSZXR1cm4gdGhlIGJhc2UgVVJMIGFuZCB0aGUgcG9zZSBwYXJhbWV0ZXIKICAgIHJldHVybiB7CiAgICAgIHVybDogaW1hZ2VVcmwuc3BsaXQoJz8nKVswXSwgLy8gQmFzZSBVUkwgd2l0aG91dCBxdWVyeSBwYXJhbXMKICAgICAgcG9zZQogICAgfQogIH0gY2F0Y2ggewogICAgLy8gSWYgdGhlIFVSTCBpcyBpbnZhbGlkLCBqdXN0IHJldHVybiB0aGUgb3JpZ2luYWwKICAgIHJldHVybiB7IHVybDogaW1hZ2VVcmwsIHBvc2U6IG51bGwgfQogIH0KfQoKLyoqCiAqIENoZWNrcyBpZiBhIHN0cmluZyBpcyBhIHZhbGlkIGJhc2U2NCBlbmNvZGVkIGltYWdlCiAqLwpleHBvcnQgZnVuY3Rpb24gaXNCYXNlNjRJbWFnZShzdHI6IHN0cmluZyk6IGJvb2xlYW4gewogIGlmICghc3RyKSByZXR1cm4gZmFsc2U7CiAgCiAgdHJ5IHsKICAgIC8vIENoZWNrIGlmIGl0J3MgYSB2YWxpZCBiYXNlNjQgc3RyaW5nCiAgICBjb25zdCBiYXNlNjRSZWdleCA9IC9eaW1hZ2VcLyhwbmd8anBnfGpwZWd8Z2lmfHdlYnApO2Jhc2U2NCwoW0EtWmEtejAtOSsvPV0pKyQvOwogICAgcmV0dXJuIGJhc2U2NFJlZ2V4LnRlc3Qoc3RyKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBmYWxzZTsKICB9Cn0KCi8qKgogKiBDb252ZXJ0cyBhIGJhc2U2NCBlbmNvZGVkIGltYWdlIHRvIGEgQmxvYiBVUkwKICovCmV4cG9ydCBmdW5jdGlvbiBiYXNlNjRUb1VybChiYXNlNjRTdHJpbmc6IHN0cmluZyk6IHN0cmluZyB7CiAgaWYgKCFiYXNlNjRTdHJpbmcpIHsKICAgIHRocm93IG5ldyBFcnJvcignQmFzZTY0IHN0cmluZyBpcyByZXF1aXJlZCcpOwogIH0KICAKICB0cnkgewogICAgLy8gRXh0cmFjdCB0aGUgTUlNRSB0eXBlIGFuZCBhY3R1YWwgYmFzZTY0IGRhdGEKICAgIGNvbnN0IG1hdGNoZXMgPSBiYXNlNjRTdHJpbmcubWF0Y2goL14oW0EtWmEtei0rXC9dKyk7YmFzZTY0LCguKykkLyk7CiAgICAKICAgIGlmICghbWF0Y2hlcyB8fCBtYXRjaGVzLmxlbmd0aCAhPT0gMykgewogICAgICB0aHJvdyBuZXcgRXJyb3IoJ0ludmFsaWQgYmFzZTY0IHN0cmluZyBmb3JtYXQnKTsKICAgIH0KICAgIAogICAgY29uc3QgY29udGVudFR5cGUgPSBtYXRjaGVzWzFdOwogICAgY29uc3QgYmFzZTY0RGF0YSA9IG1hdGNoZXNbMl07CiAgICAKICAgIC8vIENvbnZlcnQgYmFzZTY0IHRvIGJpbmFyeQogICAgY29uc3QgYnl0ZUNoYXJhY3RlcnMgPSBhdG9iKGJhc2U2NERhdGEpOwogICAgY29uc3QgYnl0ZUFycmF5cyA9IFtdOwogICAgCiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGJ5dGVDaGFyYWN0ZXJzLmxlbmd0aDsgaSArPSA1MTIpIHsKICAgICAgY29uc3Qgc2xpY2UgPSBieXRlQ2hhcmFjdGVycy5zbGljZShpLCBpICsgNTEyKTsKICAgICAgCiAgICAgIGNvbnN0IGJ5dGVOdW1iZXJzID0gbmV3IEFycmF5KHNsaWNlLmxlbmd0aCk7CiAgICAgIGZvciAobGV0IGogPSAwOyBqIDwgc2xpY2UubGVuZ3RoOyBqKyspIHsKICAgICAgICBieXRlTnVtYmVyc1tqXSA9IHNsaWNlLmNoYXJDb2RlQXQoaik7CiAgICAgIH0KICAgICAgCiAgICAgIGNvbnN0IGJ5dGVBcnJheSA9IG5ldyBVaW50OEFycmF5KGJ5dGVOdW1iZXJzKTsKICAgICAgYnl0ZUFycmF5cy5wdXNoKGJ5dGVBcnJheSk7CiAgICB9CiAgICAKICAgIGNvbnN0IGJsb2IgPSBuZXcgQmxvYihieXRlQXJyYXlzLCB7IHR5cGU6IGNvbnRlbnRUeXBlIH0pOwogICAgcmV0dXJuIFVSTC5jcmVhdGVPYmplY3RVUkwoYmxvYik7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIHRocm93IG5ldyBFcnJvcihgRmFpbGVkIHRvIGNvbnZlcnQgYmFzZTY0IHRvIFVSTDogJHtlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IFN0cmluZyhlcnJvcil9YCk7CiAgfQp9CgovKioKICogUmV0dXJucyBDU1MgZmlsdGVycy90cmFuc2Zvcm1zIGZvciBhbiBpbWFnZSBiYXNlZCBvbiBhIHBvc2UgcHJvbXB0CiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0UG9zZVN0eWxlcyhwb3NlUHJvbXB0OiBzdHJpbmcgfCBudWxsKTogewogIGZpbHRlcjogc3RyaW5nLAogIHRyYW5zZm9ybTogc3RyaW5nCn0gewogIGlmICghcG9zZVByb21wdCkgcmV0dXJuIHsgZmlsdGVyOiAnJywgdHJhbnNmb3JtOiAnJyB9CiAgCiAgLy8gRGVmYXVsdCBzdHlsZXMKICBsZXQgZmlsdGVyID0gJycKICBsZXQgdHJhbnNmb3JtID0gJycKICAKICAvLyBFeHRyYWN0IGtleSB0ZXJtcyBmcm9tIHRoZSBwcm9tcHQKICBjb25zdCBwcm9tcHQgPSBwb3NlUHJvbXB0LnRvTG93ZXJDYXNlKCkKICAKICAvLyBBcHBseSBkaWZmZXJlbnQgZWZmZWN0cyBiYXNlZCBvbiBkZXRlY3RlZCBrZXl3b3JkcyBpbiB0aGUgcHJvbXB0CiAgaWYgKHByb21wdC5pbmNsdWRlcygnaGFwcHknKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3NtaWxlJykgfHwgcHJvbXB0LmluY2x1ZGVzKCdqb3knKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ2xhdWdoaW5nJykpIHsKICAgIGZpbHRlciA9ICdicmlnaHRuZXNzKDEuMTUpIHNhdHVyYXRlKDEuMjUpIGNvbnRyYXN0KDEuMDUpJwogICAgdHJhbnNmb3JtID0gJ3NjYWxlKDEuMDUpJwogIH0gZWxzZSBpZiAocHJvbXB0LmluY2x1ZGVzKCdzYWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3Vwc2V0JykgfHwgcHJvbXB0LmluY2x1ZGVzKCd1bmhhcHB5JykgfHwgcHJvbXB0LmluY2x1ZGVzKCdjcnlpbmcnKSkgewogICAgZmlsdGVyID0gJ2JyaWdodG5lc3MoMC44NSkgc2F0dXJhdGUoMC44KSBncmF5c2NhbGUoMC4yNSkgY29udHJhc3QoMS4wNSknCiAgICB0cmFuc2Zvcm0gPSAnc2NhbGUoMC45NyknCiAgfSBlbHNlIGlmIChwcm9tcHQuaW5jbHVkZXMoJ2FuZ3J5JykgfHwgcHJvbXB0LmluY2x1ZGVzKCdtYWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ2Z1cmlvdXMnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3JhZ2UnKSkgewogICAgZmlsdGVyID0gJ2JyaWdodG5lc3MoMS4xKSBzYXR1cmF0ZSgxLjQpIGNvbnRyYXN0KDEuMTUpIGh1ZS1yb3RhdGUoLTVkZWcpJwogICAgdHJhbnNmb3JtID0gJ3NjYWxlKDEuMDgpJwogIH0gZWxzZSBpZiAocHJvbXB0LmluY2x1ZGVzKCdzdXJwcmlzZWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3Nob2NrZWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ2FtYXplZCcpIHx8IHByb21wdC5pbmNsdWRlcygnYXN0b25pc2hlZCcpKSB7CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygxLjIpIGNvbnRyYXN0KDEuMTUpIHNhdHVyYXRlKDEuMSknCiAgICB0cmFuc2Zvcm0gPSAnc2NhbGUoMS4xKScKICB9IGVsc2UgaWYgKHByb21wdC5pbmNsdWRlcygnc2NhcmVkJykgfHwgcHJvbXB0LmluY2x1ZGVzKCdhZnJhaWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ2ZyaWdodGVuZWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3RlcnJpZmllZCcpKSB7CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygwLjkpIGNvbnRyYXN0KDEuMTUpIHNhdHVyYXRlKDAuODUpIGh1ZS1yb3RhdGUoLTEwZGVnKScKICAgIHRyYW5zZm9ybSA9ICdzY2FsZSgwLjkyKScKICB9IGVsc2UgaWYgKHByb21wdC5pbmNsdWRlcygnY29uZnVzZWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3B1enpsZWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3BlcnBsZXhlZCcpKSB7CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygxKSBzYXR1cmF0ZSgwLjkpIGh1ZS1yb3RhdGUoNWRlZykgc2VwaWEoMC4xKScKICAgIHRyYW5zZm9ybSA9ICdyb3RhdGUoMmRlZykgc2NhbGUoMS4wMiknCiAgfSBlbHNlIGlmIChwcm9tcHQuaW5jbHVkZXMoJ3RpcmVkJykgfHwgcHJvbXB0LmluY2x1ZGVzKCdzbGVlcHknKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ2V4aGF1c3RlZCcpIHx8IHByb21wdC5pbmNsdWRlcygneWF3bicpKSB7CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygwLjg4KSBzYXR1cmF0ZSgwLjc1KSBibHVyKDAuNXB4KSBjb250cmFzdCgwLjk1KScKICAgIHRyYW5zZm9ybSA9ICdzY2FsZSgwLjk0KScKICB9IGVsc2UgaWYgKHByb21wdC5pbmNsdWRlcygnZXhjaXRlZCcpIHx8IHByb21wdC5pbmNsdWRlcygnZW50aHVzaWFzdGljJykgfHwgcHJvbXB0LmluY2x1ZGVzKCd0aHJpbGxlZCcpKSB7CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygxLjI1KSBzYXR1cmF0ZSgxLjM1KSBjb250cmFzdCgxLjEpJwogICAgdHJhbnNmb3JtID0gJ3NjYWxlKDEuMTIpIHJvdGF0ZSgxZGVnKScKICB9IGVsc2UgaWYgKHByb21wdC5pbmNsdWRlcygnY2FsbScpIHx8IHByb21wdC5pbmNsdWRlcygncGVhY2VmdWwnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3JlbGF4ZWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3NlcmVuZScpKSB7CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygxLjA1KSBzYXR1cmF0ZSgwLjkpIHNlcGlhKDAuMTUpJwogICAgdHJhbnNmb3JtID0gJ3NjYWxlKDEpJwogIH0gZWxzZSBpZiAocHJvbXB0LmluY2x1ZGVzKCdyb21hbnRpYycpIHx8IHByb21wdC5pbmNsdWRlcygnbG92ZScpIHx8IHByb21wdC5pbmNsdWRlcygnZmxpcnR5JykgfHwgcHJvbXB0LmluY2x1ZGVzKCdzZWR1Y3RpdmUnKSkgewogICAgZmlsdGVyID0gJ2JyaWdodG5lc3MoMS4wNSkgc2F0dXJhdGUoMS4xKSBjb250cmFzdCgxLjA1KSBodWUtcm90YXRlKDJkZWcpIHNlcGlhKDAuMiknCiAgICB0cmFuc2Zvcm0gPSAnc2NhbGUoMS4wMyknCiAgfSBlbHNlIGlmIChwcm9tcHQuaW5jbHVkZXMoJ2N1dGUnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ2thd2FpaScpIHx8IHByb21wdC5pbmNsdWRlcygnYWRvcmFibGUnKSkgewogICAgZmlsdGVyID0gJ2JyaWdodG5lc3MoMS4xNSkgc2F0dXJhdGUoMS4yKSBjb250cmFzdCgxLjA1KScKICAgIHRyYW5zZm9ybSA9ICdzY2FsZSgxLjA1KSByb3RhdGUoLTFkZWcpJwogIH0gZWxzZSBpZiAocHJvbXB0LmluY2x1ZGVzKCdzZXJpb3VzJykgfHwgcHJvbXB0LmluY2x1ZGVzKCdzdGVybicpIHx8IHByb21wdC5pbmNsdWRlcygnZGV0ZXJtaW5lZCcpKSB7CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygwLjk1KSBjb250cmFzdCgxLjIpIHNhdHVyYXRlKDAuOSkgc2VwaWEoMC4xKScKICAgIHRyYW5zZm9ybSA9ICdzY2FsZSgxLjAyKScKICB9IGVsc2UgaWYgKHByb21wdC5pbmNsdWRlcygnc2h5JykgfHwgcHJvbXB0LmluY2x1ZGVzKCdlbWJhcnJhc3NlZCcpIHx8IHByb21wdC5pbmNsdWRlcygnYmx1c2hpbmcnKSkgewogICAgZmlsdGVyID0gJ2JyaWdodG5lc3MoMS4wNSkgc2F0dXJhdGUoMS4xNSkgY29udHJhc3QoMSkgaHVlLXJvdGF0ZSgyZGVnKScKICAgIHRyYW5zZm9ybSA9ICdzY2FsZSgwLjk3KSByb3RhdGUoLTFkZWcpJwogIH0gZWxzZSBpZiAocHJvbXB0LmluY2x1ZGVzKCd0aGlua2luZycpIHx8IHByb21wdC5pbmNsdWRlcygndGhvdWdodGZ1bCcpIHx8IHByb21wdC5pbmNsdWRlcygnY29udGVtcGxhdGluZycpKSB7CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygxKSBzYXR1cmF0ZSgwLjk1KSBjb250cmFzdCgxLjA1KSBzZXBpYSgwLjEpJwogICAgdHJhbnNmb3JtID0gJ3NjYWxlKDEpIHJvdGF0ZSgxZGVnKScKICB9IGVsc2UgaWYgKHByb21wdC5pbmNsdWRlcygncHJvdWQnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ2NvbmZpZGVudCcpIHx8IHByb21wdC5pbmNsdWRlcygndmljdG9yeScpKSB7CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygxLjE1KSBzYXR1cmF0ZSgxLjEpIGNvbnRyYXN0KDEuMSknCiAgICB0cmFuc2Zvcm0gPSAnc2NhbGUoMS4wOCknCiAgfSBlbHNlIGlmIChwcm9tcHQuaW5jbHVkZXMoJ2V2aWwnKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3ZpbGxhaW4nKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ3NpbmlzdGVyJykpIHsKICAgIGZpbHRlciA9ICdicmlnaHRuZXNzKDAuOSkgc2F0dXJhdGUoMS4yKSBjb250cmFzdCgxLjIpIGh1ZS1yb3RhdGUoLTVkZWcpJwogICAgdHJhbnNmb3JtID0gJ3NjYWxlKDEuMDUpIHJvdGF0ZSgxZGVnKScKICB9IGVsc2UgaWYgKHByb21wdC5pbmNsdWRlcygnZGFuY2luZycpIHx8IHByb21wdC5pbmNsdWRlcygncGFydHknKSB8fCBwcm9tcHQuaW5jbHVkZXMoJ2NlbGVicmF0aW9uJykpIHsKICAgIGZpbHRlciA9ICdicmlnaHRuZXNzKDEuMikgc2F0dXJhdGUoMS4zKSBjb250cmFzdCgxLjEpJwogICAgdHJhbnNmb3JtID0gJ3NjYWxlKDEuMDgpIHJvdGF0ZSgyZGVnKScKICB9IGVsc2UgewogICAgLy8gRGVmYXVsdCBlZmZlY3QgZm9yIHVucmVjb2duaXplZCBwcm9tcHRzIC0gc2xpZ2h0IGVuaGFuY2VtZW50CiAgICBmaWx0ZXIgPSAnYnJpZ2h0bmVzcygxLjA4KSBzYXR1cmF0ZSgxLjE1KSBjb250cmFzdCgxLjA1KScKICAgIHRyYW5zZm9ybSA9ICdzY2FsZSgxLjA0KScKICB9CiAgCiAgcmV0dXJuIHsgZmlsdGVyLCB0cmFuc2Zvcm0gfQp9
+/**
+ * Utility functions for image manipulation
+ */
+
+/**
+ * Generates a modified version of the character avatar based on user prompt
+ * This simulates different "poses" by applying CSS transformations
+ */
+export function generateCharacterPose(baseImageUrl: string, prompt: string): string {
+  if (!baseImageUrl) {
+    throw new Error('Base image URL is required');
+  }
+
+  // Create a unique identifier for this pose based on the prompt
+  const poseId = encodeURIComponent((prompt || '').toLowerCase().trim());
+
+  // Return a URL that includes the pose ID as a query parameter
+  // The actual ChatMessage component will apply CSS effects based on this
+  return `${baseImageUrl}?pose=${poseId}`;
+}
+
+/**
+ * Extracts pose information from an image URL if present
+ */
+export function extractPoseInfo(imageUrl: string): { url: string, pose: string | null } {
+  if (!imageUrl) return { url: '', pose: null };
+
+  try {
+    const url = new URL(imageUrl);
+    const pose = url.searchParams.get('pose');
+
+    // Return the base URL and the pose parameter
+    return {
+      url: imageUrl.split('?')[0], // Base URL without query parameters
+      pose
+    };
+  } catch {
+    // If the URL is invalid, just return the original
+    return { url: imageUrl, pose: null };
+  }
+}
+
+/**
+ * Checks if a string is a valid base64 encoded image
+ */
+export function isBase64Image(str: string): boolean {
+  if (!str) return false;
+
+  try {
+    // Check if it's a valid base64 string
+    const base64Regex = /^image\/(png|jpg|jpeg|gif|webp);base64,([A-Za-z0-9+/=]+)$/;
+    return base64Regex.test(str);
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Converts a base64 encoded image to a Blob URL
+ */
+export function base64ToUrl(base64String: string): string {
+  if (!base64String) {
+    throw new Error('Base64 string is required');
+  }
+
+  try {
+    // Extract the MIME type and actual base64 data
+    const matches = base64String.match(/^([A-Za-z+/]+);base64,(.*)$/);
+
+    if (!matches || matches.length !== 3) {
+      throw new Error('Invalid base64 string format');
+    }
+
+    const contentType = matches[1];
+    const base64Data = matches[2];
+
+    // Convert base64 to binary
+    const byteCharacters = atob(base64Data);
+    const byteArrays = [];
+
+    for (let i = 0; i < byteCharacters.length; i += 512) {
+      const slice = byteCharacters.slice(i, i + 512);
+
+      const byteNumbers = new Array(slice.length);
+      for (let j = 0; j < slice.length; j++) {
+        byteNumbers[j] = slice.charCodeAt(j);
+      }
+
+      const byteArray = new Uint8Array(byteNumbers);
+      byteArrays.push(byteArray);
+    }
+
+    const blob = new Blob(byteArrays, { type: contentType });
+    return URL.createObjectURL(blob);
+  } catch (error) {
+    throw new Error(`Failed to convert base64 to URL: ${error instanceof Error ? error.message : String(error)}`);
+  }
+}
+
+/**
+ * Returns CSS filters/transforms for an image based on a pose prompt
+ */
+export function getPoseStyles(posePrompt: string | null): {
+  filter: string;
+  transform: string;
+} {
+  if (!posePrompt) return { filter: '', transform: '' };
+
+  // Default styles
+  let filter = '';
+  let transform = '';
+
+  // Extract key terms from the prompt
+  const prompt = posePrompt.toLowerCase();
+
+  // Apply different effects based on detected keywords in the prompt
+  if (prompt.includes('happy') || prompt.includes('smile') || prompt.includes('joy') || prompt.includes('laughing')) {
+    filter = 'brightness(1.15) saturate(1.25) contrast(1.05)';
+    transform = 'scale(1.05)';
+  } else if (prompt.includes('sad') || prompt.includes('upset') || prompt.includes('unhappy') || prompt.includes('crying')) {
+    filter = 'brightness(0.85) saturate(0.8) grayscale(0.25) contrast(1.05)';
+    transform = 'scale(0.97)';
+  } else if (prompt.includes('angry') || prompt.includes('mad') || prompt.includes('furious') || prompt.includes('rage')) {
+    filter = 'brightness(1.1) saturate(1.4) contrast(1.15) hue-rotate(-5deg)';
+    transform = 'scale(1.08)';
+  } else if (prompt.includes('surprised') || prompt.includes('shocked') || prompt.includes('amazed') || prompt.includes('astonished')) {
+    filter = 'brightness(1.2) contrast(1.15) saturate(1.1)';
+    transform = 'scale(1.1)';
+  } else if (prompt.includes('scared') || prompt.includes('afraid') || prompt.includes('frightened') || prompt.includes('terrified')) {
+    filter = 'brightness(0.9) contrast(1.15) saturate(0.85) hue-rotate(-10deg)';
+    transform = 'scale(0.92)';
+  } else if (prompt.includes('confused') || prompt.includes('puzzled') || prompt.includes('perplexed')) {
+    filter = 'brightness(1) saturate(0.9) hue-rotate(5deg) sepia(0.1)';
+    transform = 'rotate(2deg) scale(1.02)';
+  } else if (prompt.includes('tired') || prompt.includes('sleepy') || prompt.includes('exhausted') || prompt.includes('yawn')) {
+    filter = 'brightness(0.88) saturate(0.75) blur(0.5px) contrast(0.95)';
+    transform = 'scale(0.94)';
+  } else if (prompt.includes('excited') || prompt.includes('enthusiastic') || prompt.includes('thrilled')) {
+    filter = 'brightness(1.25) saturate(1.35) contrast(1.1)';
+    transform = 'scale(1.12) rotate(1deg)';
+  } else if (prompt.includes('calm') || prompt.includes('peaceful') || prompt.includes('relaxed') || prompt.includes('serene')) {
+    filter = 'brightness(1.05) saturate(0.9) sepia(0.15)';
+    transform = 'scale(1)';
+  } else if (prompt.includes('romantic') || prompt.includes('love') || prompt.includes('flirty') || prompt.includes('seductive')) {
+    filter = 'brightness(1.05) saturate(1.1) contrast(1.05) hue-rotate(2deg) sepia(0.2)';
+    transform = 'scale(1.03)';
+  } else if (prompt.includes('cute') || prompt.includes('kawaii') || prompt.includes('adorable')) {
+    filter = 'brightness(1.15) saturate(1.2) contrast(1.05)';
+    transform = 'scale(1.05) rotate(-1deg)';
+  } else if (prompt.includes('serious') || prompt.includes('stern') || prompt.includes('determined')) {
+    filter = 'brightness(0.95) contrast(1.2) saturate(0.9) sepia(0.1)';
+    transform = 'scale(1.02)';
+  } else if (prompt.includes('shy') || prompt.includes('embarrassed') || prompt.includes('blushing')) {
+    filter = 'brightness(1.05) saturate(1.15) contrast(1) hue-rotate(2deg)';
+    transform = 'scale(0.97) rotate(-1deg)';
+  } else if (prompt.includes('thinking') || prompt.includes('thoughtful') || prompt.includes('contemplating')) {
+    filter = 'brightness(1) saturate(0.95) contrast(1.05) sepia(0.1)';
+    transform = 'scale(1)scale(1)scale(
