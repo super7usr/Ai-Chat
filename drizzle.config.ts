@@ -1,14 +1,1 @@
-import { defineConfig } from "drizzle-kit";
-
-if (!process.env.DATABASE_URL) {
-  throw new Error("DATABASE_URL, ensure the database is provisioned");
-}
-
-export default defineConfig({
-  out: "./migrations",
-  schema: "./shared/schema.ts",
-  dialect: "postgresql",
-  dbCredentials: {
-    url: process.env.DATABASE_URL,
-  },
-});
+aW1wb3J0IGRlZmluZUNvbmZpZyB9IGZyb20gImRyaXp6bGUta2l0IjsKCmlmICghcHJvY2Vzcy5lbnYuREFUQUJBU0VfVVJMKSB7CiAgdGhyb3cgbmV3IEVycm9yKCJEQVRBQkFTRV9VUkwgaXMgbm90IHNldCwgZW5zdXJlIGRhdGFiYXNlIGlzIHByb3Zpc2lvbmVkIik7Cn0KCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7CiAgb3V0Om1pZ3JhdGlvbnMiLAogIHNjaGVtYTogIi4vc2hhcmVkL3NjaGVtYS50cyIsCiAgZGlhbGVjdDogInBvc3RncmVzcWwiLAogIGRiQ3JlZGVudGlhbHM6IHsKICAgIGNvbm5lY3Rpb25TdHJpbmc6IHByb2Nlc3MuZW52LkRBVEFCQVNFX1VSTCwKICB9LAogIHZlcmJvc2U6IHRydWUsCiAgc3RyaWN0OiB0cnVlLAp9KTs=
