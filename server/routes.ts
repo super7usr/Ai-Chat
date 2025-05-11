@@ -1,1 +1,214 @@
-aW1wb3J0IHR5cGUgeyBFeHByZXNzIH0gZnJvbSAiZXhwcmVzcyI7CmltcG9ydCB7IGNyZWF0ZVNlcnZlciwgdHlwZSBTZXJ2ZXIgfSBmcm9tICJodHRwIjsKaW1wb3J0IHsgc3RvcmFnZSB9IGZyb20gIi4vc3RvcmFnZSI7CmltcG9ydCB7IHJhbmRvbVVVSUQgfSBmcm9tICJjcnlwdG8iOwppbXBvcnQgZnMgZnJvbSAiZnMvcHJvbWlzZXMiOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlZ2lzdGVyUm91dGVzKGFwcDogRXhwcmVzcyk6IFByb21pc2U8U2VydmVyPiB7CiAgLy8gQ2hhcmFjdGVyIHJvdXRlcwogIGFwcC5nZXQoIi9hcGkvY2hhcmFjdGVycyIsIGFzeW5jIChyZXEsIHJlcykgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgY2F0ZWdvcnkgPSByZXEucXVlcnkuY2F0ZWdvcnkgYXMgc3RyaW5nIHwgdW5kZWZpbmVkOwogICAgICBsZXQgY2hhcmFjdGVyczsKCiAgICAgIGlmIChjYXRlZ29yeSkgewogICAgICAgIGNoYXJhY3RlcnMgPSBhd2FpdCBzdG9yYWdlLmdldENoYXJhY3RlcnNCeUNhdGVnb3J5KGNhdGVnb3J5KTsKICAgICAgfSBlbHNlIHsKICAgICAgICBjaGFyYWN0ZXJzID0gYXdhaXQgc3RvcmFnZS5nZXRDaGFyYWN0ZXJzKCk7CiAgICAgIH0KCiAgICAgIHJlcy5qc29uKGNoYXJhY3RlcnMpOwogICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgICByZXMuc3RhdHVzKDUwMCkuanNvbih7IG1lc3NhZ2U6IGVycm9yLm1lc3NhZ2UgfSk7CiAgICB9CiAgfSk7CgogIGFwcC5nZXQoIi9hcGkvY2hhcmFjdGVycy86aWQiLCBhc3luYyAocmVxLCByZXMpID0+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGlkID0gcGFyc2VJbnQocmVxLnBhcmFtcy5pZCk7CiAgICAgIGNvbnN0IGNoYXJhY3RlciA9IGF3YWl0IHN0b3JhZ2UuZ2V0Q2hhcmFjdGVyKGlkKTsKCiAgICAgIGlmICghY2hhcmFjdGVyKSB7CiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNDA0KS5qc29uKHsgbWVzc2FnZTogIkNoYXJhY3RlciBub3QgZm91bmQiIH0pOwogICAgICB9CgogICAgICByZXMuanNvbihjaGFyYWN0ZXIpOwogICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgICByZXMuc3RhdHVzKDUwMCkuanNvbih7IG1lc3NhZ2U6IGVycm9yLm1lc3NhZ2UgfSk7CiAgICB9CiAgfSk7CgogIGFwcC5wb3N0KCIvYXBpL2NoYXJhY3RlcnMiLCBhc3luYyAocmVxLCByZXMpID0+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGNoYXJhY3RlciA9IHJlcS5ib2R5OwogICAgICBjb25zdCBuZXdDaGFyYWN0ZXIgPSBhd2FpdCBzdG9yYWdlLmNyZWF0ZUNoYXJhY3RlcihjaGFyYWN0ZXIpOwogICAgICByZXMuc3RhdHVzKDIwMSkuanNvbihuZXdDaGFyYWN0ZXIpOwogICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgICByZXMuc3RhdHVzKDUwMCkuanNvbih7IG1lc3NhZ2U6IGVycm9yLm1lc3NhZ2UgfSk7CiAgICB9CiAgfSk7CgogIC8vIENoYXQgbWVzc2FnZXMgcm91dGVzCiAgYXBwLmdldCgiL2FwaS9tZXNzYWdlcy86Y2hhcmFjdGVySWQvOnNlc3Npb25JZCIsIGFzeW5jIChyZXEsIHJlcykgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgY2hhcmFjdGVySWQgPSBwYXJzZUludChyZXEucGFyYW1zLmNoYXJhY3RlcklkKTsKICAgICAgY29uc3Qgc2Vzc2lvbklkID0gcmVxLnBhcmFtcy5zZXNzaW9uSWQ7CgogICAgICBjb25zdCBtZXNzYWdlcyA9IGF3YWl0IHN0b3JhZ2UuZ2V0TWVzc2FnZXMoY2hhcmFjdGVySWQsIHNlc3Npb25JZCk7CiAgICAgIHJlcy5qc29uKG1lc3NhZ2VzKTsKICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgICAgcmVzLnN0YXR1cyg1MDApLmpzb24oeyBtZXNzYWdlOiBlcnJvci5tZXNzYWdlIH0pOwogICAgfQogIH0pOwoKICBhcHAucG9zdCgiL2FwaS9tZXNzYWdlcyIsIGFzeW5jIChyZXEsIHJlcykgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgbWVzc2FnZSA9IHJlcS5ib2R5OwogICAgICBjb25zdCBuZXdNZXNzYWdlID0gYXdhaXQgc3RvcmFnZS5jcmVhdGVNZXNzYWdlKG1lc3NhZ2UpOwogICAgICByZXMuc3RhdHVzKDIwMSkuanNvbihuZXdNZXNzYWdlKTsKICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgICAgcmVzLnN0YXR1cyg1MDApLmpzb24oeyBtZXNzYWdlOiBlcnJvci5tZXNzYWdlIH0pOwogICAgfQogIH0pOwoKICAvLyBBSSBNb2RlbHMgcm91dGVzCiAgYXBwLmdldCgiL2FwaS9tb2RlbHMiLCBhc3luYyAocmVxLCByZXMpID0+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IG1vZGVscyA9IGF3YWl0IHN0b3JhZ2UuZ2V0TW9kZWxzKCk7CiAgICAgIHJlcy5qc29uKG1vZGVscyk7CiAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7CiAgICAgIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsgbWVzc2FnZTogZXJyb3IubWVzc2FnZSB9KTsKICAgIH0KICB9KTsKCiAgLy8gQ2hhdCBjb21wbGV0aW9uIEFQSSByb3V0ZQogIGFwcC5wb3N0KCIvYXBpL2NoYXQvY29tcGxldGlvbnMiLCBhc3luYyAocmVxLCByZXMpID0+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHsgbW9kZWwsIG1lc3NhZ2VzLCBjaGFyYWN0ZXIgfSA9IHJlcS5ib2R5OwoKICAgICAgLy8gTWFrZSByZXF1ZXN0IHRvIGRldnNkb2NvZGUgQVBJCiAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goImh0dHBzOi8vYXBpLmRldnNkb2NvZGUuY29tL3YxL2NoYXQvY29tcGxldGlvbnMiLCB7CiAgICAgICAgbWV0aG9kOiAiUE9TVCIsCiAgICAgICAgaGVhZGVyczogewogICAgICAgICAgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiwKICAgICAgICAgICJBdXRob3JpemF0aW9uIjogIkJlYXJlciBkZGMtdGVtcC1mcmVlLWUzYjczY2Q4MTRjYzRmM2VhNzliNWQ0NDM3OTEyNjYzIgogICAgICAgIH0sCiAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoewogICAgICAgICAgbW9kZWwsCiAgICAgICAgICBtZXNzYWdlcwogICAgICAgIH0pCiAgICAgIH0pOwoKICAgICAgaWYgKCFyZXNwb25zZS5vaykgewogICAgICAgIGNvbnN0IGVycm9yVGV4dCA9IGF3YWl0IHJlc3BvbnNlLnRleHQoKTsKICAgICAgICByZXR1cm4gcmVzLnN0YXR1cyhyZXNwb25zZS5zdGF0dXMpLmpzb24oeyAKICAgICAgICAgIG1lc3NhZ2U6IGBBUEkgcmVxdWVzdCBmYWlsZWQgd2l0aCBzdGF0dXMgJHtyZXNwb25zZS5zdGF0dXN9YCwKICAgICAgICAgIGVycm9yOiBlcnJvclRleHQKICAgICAgICB9KTsKICAgICAgfQoKICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlc3BvbnNlLmpzb24oKTsKICAgICAgcmVzLmpzb24oZGF0YSk7CiAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7CiAgICAgIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsgbWVzc2FnZTogZXJyb3IubWVzc2FnZSB9KTsKICAgIH0KICB9KTsKCiAgLy8gSW1hZ2UgZ2VuZXJhdGlvbiBBUEkgcm91dGUKICBhcHAucG9zdCgiL2FwaS9pbWFnZXMvZ2VuZXJhdGlvbnMiLCBhc3luYyAocmVxLCByZXMpID0+IHsKICAgIGNvbnN0IHsgcHJvbXB0IH0gPSByZXEuYm9keTsKICAgIC8vIEZvciBkZW1vIHB1cnBvc2VzLCB1c2luZyBhIHBsYWNlaG9sZGVyIGltYWdlIHNlcnZpY2UKICAgIGNvbnN0IHNlZWQgPSBNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zdWJzdHJpbmcoNyk7CiAgICBjb25zdCBpbWFnZVVybCA9IGBodHRwczovL3BpY3N1bS5waG90b3Mvc2VlZC8ke3NlZWR9LzQwMC80MDBgOwogICAgcmVzLmpzb24oeyB1cmw6IGltYWdlVXJsIH0pOwogIH0pOwoKICAvLyBCYXNlNjQgZW5jb2RlZCB0ZXh0IHJvdXRlCiAgYXBwLnBvc3QoIi9hcGkvYmFzZTY0L2RlY29kZSIsIGFzeW5jIChyZXEsIHJlcykgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgeyBlbmNvZGVkVGV4dCB9ID0gcmVxLmJvZHk7CiAgICAgIAogICAgICBpZiAoIWVuY29kZWRUZXh0KSB7CiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgbWVzc2FnZTogIkVuY29kZWQgdGV4dCBpcyByZXF1aXJlZCIgfSk7CiAgICAgIH0KCiAgICAgIHRyeSB7CiAgICAgICAgLy8gRGVjb2RlIHRoZSBiYXNlNjQgZW5jb2RlZCB0ZXh0CiAgICAgICAgY29uc3QgZGVjb2RlZFRleHQgPSBCdWZmZXIuZnJvbShlbmNvZGVkVGV4dCwgJ2Jhc2U2NCcpLnRvU3RyaW5nKCd1dGYtOCcpOwogICAgICAgIHJlcy5qc29uKHsgZGVjb2RlZFRleHQgfSk7CiAgICAgIH0gY2F0Y2ggKGRlY29kZUVycm9yKSB7CiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgbWVzc2FnZTogIkludmFsaWQgYmFzZTY0IGVuY29kZWQgc3RyaW5nIiB9KTsKICAgICAgfQogICAgfSBjYXRjaCAoZXJyb3I6IGFueSkgewogICAgICByZXMuc3RhdHVzKDUwMCkuanNvbih7IG1lc3NhZ2U6IGVycm9yLm1lc3NhZ2UgfHwgIkFuIGVycm9yIG9jY3VycmVkIHdoaWxlIGRlY29kaW5nIHRoZSB0ZXh0IiB9KTsKICAgIH0KICB9KTsKCiAgYXBwLnBvc3QoIi9hcGkvYmFzZTY0L2VuY29kZSIsIGFzeW5jIChyZXEsIHJlcykgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3QgeyB0ZXh0IH0gPSByZXEuYm9keTsKICAgICAgCiAgICAgIGlmICghdGV4dCkgewogICAgICAgIHJldHVybiByZXMuc3RhdHVzKDQwMCkuanNvbih7IG1lc3NhZ2U6ICJUZXh0IHRvIGVuY29kZSBpcyByZXF1aXJlZCIgfSk7CiAgICAgIH0KCiAgICAgIHRyeSB7CiAgICAgICAgLy8gRW5jb2RlIHRoZSB0ZXh0IHRvIGJhc2U2NAogICAgICAgIGNvbnN0IGVuY29kZWRUZXh0ID0gQnVmZmVyLmZyb20odGV4dCkudG9TdHJpbmcoJ2Jhc2U2NCcpOwogICAgICAgIHJlcy5qc29uKHsgZW5jb2RlZFRleHQgfSk7CiAgICAgIH0gY2F0Y2ggKGVuY29kZUVycm9yKSB7CiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgbWVzc2FnZTogIkZhaWxlZCB0byBlbmNvZGUgdGV4dCIgfSk7CiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycm9yOiBhbnkpIHsKICAgICAgcmVzLnN0YXR1cyg1MDApLmpzb24oeyBtZXNzYWdlOiBlcnJvci5tZXNzYWdlIHx8ICJBbiBlcnJvciBvY2N1cnJlZCB3aGlsZSBlbmNvZGluZyB0aGUgdGV4dCIgfSk7CiAgICB9CiAgfSk7CgogIC8vIE5ldyByb3V0ZSBmb3IgUHl0aG9uIGhhc2ggc3RyaW5nIGNvbnZlcnNpb24KICBhcHAucG9zdCgiL2FwaS9weXRob24vaGFzaF9jb252ZXJ0IiwgYXN5bmMgKHJlcSwgcmVzKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCB7IGhhc2hTdHJpbmcgfSA9IHJlcS5ib2R5OwogICAgICAKICAgICAgaWYgKCFoYXNoU3RyaW5nKSB7CiAgICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgbWVzc2FnZTogIlB5dGhvbiBoYXNoIHN0cmluZyBpcyByZXF1aXJlZCIgfSk7CiAgICAgIH0KICAgICAgCiAgICAgIC8vIFNpbXBsZSBjb252ZXJzaW9uIGZvciBQeXRob24gaGFzaCBzdHJpbmdzCiAgICAgIC8vIFRoaXMgaXMgYSBiYXNpYyBpbXBsZW1lbnRhdGlvbiAtIGNhbiBiZSBleHRlbmRlZCBiYXNlZCBvbiBzcGVjaWZpYyByZXF1aXJlbWVudHMKICAgICAgdHJ5IHsKICAgICAgICAvLyBSZW1vdmUgUHl0aG9uIHNwZWNpZmljIHN5bnRheCBhbmQgY29udmVydCB0byBKYXZhU2NyaXB0IG9iamVjdAogICAgICAgIGNvbnN0IGNsZWFuZWRTdHJpbmcgPSBoYXNoU3RyaW5nCiAgICAgICAgICAucmVwbGFjZSgvJy9nLCAnIicpICAgICAgICAgLy8gUmVwbGFjZSBzaW5nbGUgcXVvdGVzIHdpdGggZG91YmxlIHF1b3RlcwogICAgICAgICAgLnJlcGxhY2UoL05vbmUvZywgJ251bGwnKSAgIC8vIFJlcGxhY2UgTm9uZSB3aXRoIG51bGwKICAgICAgICAgIC5yZXBsYWNlKC9UcnVlL2csICd0cnVlJykgICAvLyBSZXBsYWNlIFRydWUgd2l0aCB0cnVlCiAgICAgICAgICAucmVwbGFjZSgvRmFsc2UvZywgJ2ZhbHNlJykgLy8gUmVwbGFjZSBGYWxzZSB3aXRoIGZhbHNlCiAgICAgICAgICAucmVwbGFjZSgvKFx3Kyk6L2csICciJDEiOicpOyAvLyBBZGQgcXVvdGVzIHRvIGtleXMKICAgICAgICAKICAgICAgICBjb25zdCBjb252ZXJ0ZWRPYmplY3QgPSBKU09OLnBhcnNlKGNsZWFuZWRTdHJpbmcpOwogICAgICAgIHJlcy5qc29uKHsgCiAgICAgICAgICBjb252ZXJ0ZWRPYmplY3QsCiAgICAgICAgICBvcmlnaW5hbFN0cmluZzogaGFzaFN0cmluZwogICAgICAgIH0pOwogICAgICB9IGNhdGNoIChjb252ZXJ0RXJyb3I6IGFueSkgewogICAgICAgIHJldHVybiByZXMuc3RhdHVzKDQwMCkuanNvbih7IAogICAgICAgICAgbWVzc2FnZTogIkZhaWxlZCB0byBjb252ZXJ0IFB5dGhvbiBoYXNoIHN0cmluZyIsIAogICAgICAgICAgZXJyb3I6IGNvbnZlcnRFcnJvci5tZXNzYWdlIAogICAgICAgIH0pOwogICAgICB9CiAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7CiAgICAgIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsgCiAgICAgICAgbWVzc2FnZTogZXJyb3IubWVzc2FnZSB8fCAiQW4gZXJyb3Igb2NjdXJyZWQgd2hpbGUgY29udmVydGluZyB0aGUgUHl0aG9uIGhhc2ggc3RyaW5nIiAKICAgICAgfSk7CiAgICB9CiAgfSk7CgogIGNvbnN0IGh0dHBTZXJ2ZXIgPSBjcmVhdGVTZXJ2ZXIoYXBwKTsKICByZXR1cm4gaHR0cFNlcnZlcjsKfQ==
+import type { Express } from "expressimport { createServer, type Server } from "http";
+import { storage from "./";
+import { randomUUID } from "crypto";
+import fs from "fs/promises";
+
+export async function registerRoutes(app: Express): Promise<Server> {
+  // Character routes
+  app.get("/api/characters", async (req, res) => {
+    try {
+      const category = req.query.category as string | undefined;
+      let characters;
+
+      if (category) {
+        characters = await storage.getCharactersByCategory(category);
+      } else {
+        characters = await storage.getCharacters();
+      }
+
+     .json(characters);
+    } catch (error: any) {
+ console.error("Error fetching characters:", error);
+      res.status(500).json({ message: error.message || "Failed to fetch characters" });
+    }
+  });
+
+  app.get("/api/characters/:id", async (req, res) => {
+    try {
+      const id = parseInt(req.params.id);
+      const character = await storage.getCharacter(id);
+
+      if (!character) {
+        return res.status(404).json({ message: "Character not found" });
+      }
+
+      res.json(character);
+    } catch (error: any) {
+      console.error("Error fetching character:", error);
+      res.status(500).json({ message: error.message || "Failed to fetch character" });
+    }
+   app.post("/api/characters", async (req,) => {
+    try {
+      const character = req.body;
+      const newCharacter = await storage.createCharacter(character);
+      res.status(201).json(newCharacter    } catch (error: any) {
+      console.error("Error creating character error);
+      res.status(500).json({ message: error.message || "Failed to create character" });
+    }
+  });
+
+  // Chat messages routes
+  app.get("/api/messages/:characterId/:sessionId", async (, res) => {
+    try {
+      const characterId = parseInt(req.params.characterId);
+      const session = req.params.sessionId;
+
+      const messages = await storage.getMessages(characterId, sessionId);
+      res.json(messages);
+    } catch (error: any) {
+      console.error("Error fetching messages:", error);
+      res.status(500).json({ message: error.message || "Failed to fetch messages" });
+    }
+  });
+
+  app.post("/api/messages", async (req, res) => {
+    try {
+      const message = req.body;
+      const newMessage = await storage.createMessage(message);
+      res.status(201).json(newMessage);
+ } catch (error: any) {
+      console.error("Error creating message:", error);
+      res.status(500).json({ message: error.message "Failed to create message" });
+    }
+  });
+
+  // AI Models routes
+  app.get("/api/models", async (req, res => {
+    try {
+      const models = await storage.getModels();
+      res.json(models);
+    } catch (error: any) {
+     .error("Error fetching models:", error);
+      res.status(500).json({ message: error.message || "Failed to fetch models" });
+    }
+ });
+
+  // Chat completion API route
+  app.post("//chat/completions", async (req, res) => {
+    try {
+      const { model, messages, character } = req.body;
+
+      Make request tonsdecode API
+      const response = await fetch("https://api.devnsdecode.com/v1/chat/completions", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer ddc-temp-free-e3b73cd814cc4f3ea79b5d44437912663"
+        },
+        body: JSON.stringify({
+          model,
+          messages
+        })
+      });
+
+      if (!response.ok)        const errorText = await response.text();
+        return res.status(response.status).json({
+          message: `API request with status ${response.status}`,
+          error: errorText
+        });
+      }
+
+      const data = await response.json();
+      res.json);
+    } catch (error: any) {
+      console.error("Error making chat completion request:", error);
+      res.status(500).json({ message: error.message || "Failed to complete chat" });
+    }
+  });
+
+  // Image generation API route
+  app.post("/api/images/generations async (req, res) => {
+    try {
+      const { prompt } = req.body;
+      // For demo purposes, using a placeholder image service
+      const seed = Math.random().toString(36).substring(7);
+      const imageUrl = `https://picsum/seed/${seed}/400/400`;
+      res.json({ url: imageUrl });
+    } catch (error: any) {
+      console.error("Error image:", error);
+      res.status(500).json({ message: error.message || "Failed to generate image" });
+    }
+  });
+
+  // Base64 encoded text route
+  app.post("/api/base64/decode", async (req, res) => {
+    {
+      { encodedText } = req.body;
+
+      if (!encodedText) {
+        return res.status(400).json({ message: "Encoded text is" });
+      }
+
+      try        // Decode the base64 encoded text
+        const decodedText = Buffer.from(encodedText, 'base64').String('utf-8');
+        res.json({ decodedText });
+      } catch (decodeError:) {
+        return res.status(400).json({ message:Invalid base64 encoded string" });
+      }
+    } catch (error: any) {
+      console.error("Error decoding base64 text:", error);
+      res.status(500).json({ message: error.message || "An error occurred while decoding the text" });
+    }
+  });
+
+  app.post("/api64/encode", async (req, res) => {
+    try {
+      const { text } = req.body;
+
+      if (!text) {
+        return res.status().json({ message: "Text encode is required" });
+      }
+
+      try {
+        // Encode the text to base64
+        const encodedText = Buffer.from(text).toString('base64');
+        res.json({ encodedText });
+      } catch (encodeError: any) {
+        return res.status(400).json({ message: "Failed to encode text" });
+      }
+    } catch (error: any) {
+      console.error("Error encoding text to base64:", error);
+      res.status(500).json({ message: error.message " error occurred while the text" });
+    }
+  });
+
+  // New route for Python hash string conversion
+  app.post("/api/python/hash_convert", async (req, res) => {
+    try {
+      const { hashString } = req.body;
+
+      if (!hashString) {
+        return res.status(400).json({ message: "Python hash string is required" });
+      }
+
+      {
+        // Simple conversion for Python strings
+        const cleanedString = hashString
+          .replace(/'/g, '"') // Replace single quotes with double quotes
+          .replace(/None/g, 'null') // Replace None with null
+          .replace(/True/g, 'true') // Replace True with true
+          .replace(/False/g, 'false') // Replace False with false
+         replace(/(\w+):/g, '"$1":'); // Add quotes to
+
+        const convertedObject = JSON.parse(cleanedString);
+        res.json({
+          convertedObject,
+          originalString: hashString
+        });
+      } catch (convertError: any) {
+        return res.status(400).json({
+          message: "Failed to convert Python hash string",
+          error: convertError.message
+        });
+      }
+    } catch (error: any) {
+      console.error("Error converting Python hash string:", error);
+      res.status(500).json({
+        message: error.message "An error occurred while converting the Python hash string"
+      });
+    }
+  });
+
+  const httpServer = create(app);
+  return httpServer;
+}
