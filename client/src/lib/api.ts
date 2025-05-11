@@ -1,1 +1,110 @@
-aW1wb3J0IHsgSW5zZXJ0TWVzc2FnZSwgQ2hhdE1lc3NhZ2UgfSBmcm9tICJAc2hhcmVkL3NjaGVtYSI7CmltcG9ydCB7IGFwaVJlcXVlc3QgfSBmcm9tICIuL3F1ZXJ5Q2xpZW50IjsKCmV4cG9ydCBpbnRlcmZhY2UgSW1hZ2VHZW5lcmF0aW9uUmVxdWVzdCB7CiAgcHJvbXB0OiBzdHJpbmc7CiAgc3R5bGU/OiAidml2aWQiIHwgIm5hdHVyYWwiOwp9CgpleHBvcnQgaW50ZXJmYWNlIEltYWdlR2VuZXJhdGlvblJlc3BvbnNlIHsKICB1cmw6IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBDaGF0Q29tcGxldGlvbk1lc3NhZ2UgewogIHJvbGU6ICJzeXN0ZW0iIHwgInVzZXIiIHwgImFzc2lzdGFudCI7CiAgY29udGVudDogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIENoYXRDb21wbGV0aW9uUmVxdWVzdCB7CiAgbW9kZWw6IHN0cmluZzsKICBtZXNzYWdlczogQ2hhdENvbXBsZXRpb25NZXNzYWdlW107CiAgY2hhcmFjdGVyPzogewogICAgaWQ6IG51bWJlcjsKICAgIG5hbWU6IHN0cmluZzsKICAgIGRlc2NyaXB0aW9uOiBzdHJpbmc7CiAgfTsKfQoKZXhwb3J0IGludGVyZmFjZSBDaGF0Q29tcGxldGlvblJlc3BvbnNlIHsKICBpZDogc3RyaW5nOwogIG9iamVjdDogc3RyaW5nOwogIGNyZWF0ZWQ6IG51bWJlcjsKICBtb2RlbDogc3RyaW5nOwogIGNob2ljZXM6IHsKICAgIGluZGV4OiBudW1iZXI7CiAgICBtZXNzYWdlOiB7CiAgICAgIHJvbGU6IHN0cmluZzsKICAgICAgY29udGVudDogc3RyaW5nOwogICAgfTsKICAgIGZpbmlzaF9yZWFzb246IHN0cmluZzsKICB9W107CiAgdXNhZ2U6IHsKICAgIHByb21wdF90b2tlbnM6IG51bWJlcjsKICAgIGNvbXBsZXRpb25fdG9rZW5zOiBudW1iZXI7CiAgICB0b3RhbF90b2tlbnM6IG51bWJlcjsKICB9Owp9CgovKioKICogRW5jb2RlcyBhIHN0cmluZyB0byBiYXNlNjQKICogQHBhcmFtIHRleHQgLSBUaGUgdGV4dCB0byBlbmNvZGUKICogQHJldHVybnMgQmFzZTY0IGVuY29kZWQgc3RyaW5nCiAqLwpleHBvcnQgZnVuY3Rpb24gZW5jb2RlQmFzZTY0KHRleHQ6IHN0cmluZyk6IHN0cmluZyB7CiAgdHJ5IHsKICAgIHJldHVybiBidG9hKHRleHQpOwogIH0gY2F0Y2ggKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCJFcnJvciBlbmNvZGluZyB0ZXh0IHRvIGJhc2U2NDoiLCBlcnJvcik7CiAgICB0aHJvdyBuZXcgRXJyb3IoIkZhaWxlZCB0byBlbmNvZGUgdGV4dCB0byBiYXNlNjQiKTsKICB9Cn0KCi8qKgogKiBEZWNvZGVzIGEgYmFzZTY0IHN0cmluZyB0byB0ZXh0CiAqIEBwYXJhbSBiYXNlNjQgLSBUaGUgYmFzZTY0IHN0cmluZyB0byBkZWNvZGUKICogQHJldHVybnMgRGVjb2RlZCB0ZXh0CiAqLwpleHBvcnQgZnVuY3Rpb24gZGVjb2RlQmFzZTY0KGJhc2U2NDogc3RyaW5nKTogc3RyaW5nIHsKICB0cnkgewogICAgcmV0dXJuIGF0b2IoYmFzZTY0KTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcigiRXJyb3IgZGVjb2RpbmcgYmFzZTY0IHRvIHRleHQ6IiwgZXJyb3IpOwogICAgdGhyb3cgbmV3IEVycm9yKCJGYWlsZWQgdG8gZGVjb2RlIGJhc2U2NCB0byB0ZXh0Iik7CiAgfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc2VuZENoYXRNZXNzYWdlKHJlcXVlc3Q6IENoYXRDb21wbGV0aW9uUmVxdWVzdCk6IFByb21pc2U8Q2hhdENvbXBsZXRpb25SZXNwb25zZT4gewogIHRyeSB7CiAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGFwaVJlcXVlc3QoIlBPU1QiLCAiL2FwaS9jaGF0L2NvbXBsZXRpb25zIiwgcmVxdWVzdCk7CiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNvbigpOwogICAgcmV0dXJuIGRhdGE7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkVycm9yIHNlbmRpbmcgY2hhdCBtZXNzYWdlOiIsIGVycm9yKTsKICAgIHRocm93IGVycm9yOwogIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHNhdmVNZXNzYWdlKG1lc3NhZ2U6IEluc2VydE1lc3NhZ2UpOiBQcm9taXNlPENoYXRNZXNzYWdlPiB7CiAgdHJ5IHsKICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgYXBpUmVxdWVzdCgiUE9TVCIsICIvYXBpL21lc3NhZ2VzIiwgbWVzc2FnZSk7CiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNvbigpOwogICAgcmV0dXJuIGRhdGE7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkVycm9yIHNhdmluZyBtZXNzYWdlOiIsIGVycm9yKTsKICAgIHRocm93IGVycm9yOwogIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdlbmVyYXRlSW1hZ2UocmVxdWVzdDogSW1hZ2VHZW5lcmF0aW9uUmVxdWVzdCk6IFByb21pc2U8SW1hZ2VHZW5lcmF0aW9uUmVzcG9uc2U+IHsKICB0cnkgewogICAgY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBhcGlSZXF1ZXN0KCJQT1NUIiwgIi9hcGkvaW1hZ2VzL2dlbmVyYXRpb25zIiwgcmVxdWVzdCk7CiAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNvbigpOwogICAgcmV0dXJuIGRhdGE7CiAgfSBjYXRjaCAoZXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkVycm9yIGdlbmVyYXRpbmcgaW1hZ2U6IiwgZXJyb3IpOwogICAgdGhyb3cgZXJyb3I7CiAgfQp9
+import { InsertMessage, ChatMessage } from "@shared/schema";
+import { apiRequest from "./queryClient";
+
+export interfaceGenerationRequest {
+  prompt: string;
+  style?: "vivid" |natural";
+}
+
+export interface ImageGenerationResponse {
+  url: string;
+}
+
+export interface ChatCompletionMessage {
+  role: "system" | "user" | "assistant";
+  content: string;
+}
+
+export interface ChatCompletionRequest {
+  model: string;
+  messages: ChatMessage[];
+  character?: {
+    id: number;
+    name: string;
+    description: string;
+  };
+}
+
+export interface ChatCompletionResponse {
+  id: string;
+  object: string  created: number;
+  model: string;
+  choices: {
+    index: number;
+    message: {
+      role: string;
+      content: string;
+    };
+    finish_reason: string;
+  }[];
+  usage:    prompt_tokens: number;
+    completion_tokens: number;
+    total_tokens: number;
+  };
+}
+
+/**
+ * Encodes a string to base64 * @param text - The text to encode
+ * @returns Base64 encoded string
+ */
+export functionBase64(text: string string {
+  try {
+    return btoa(text);
+  } catch (error) {
+    console.error("Error encoding text to base64:", error);
+    throw new Error("Failed to encode text to base64");
+  }
+}
+
+/**
+ * Dec a base64 string to text
+ * @param base64 - The base64 string to decode
+ * @returns Decoded text
+ */
+export function decodeBase(base64: string): string {
+  try {
+    return atob(base64);
+  } catch (error) {
+    console.error("Error decoding base64 to text:", error);
+    throw new Error("Failed to decode base64 to text  }
+}
+
+export async function sendChatMessage: ChatCompletionRequest): Promise<ChatCompletionResponse> {
+  try    const response = await apiRequest("POST", "/api/chat/completions", request);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error sending chat message:", error);
+    throw error;
+  }
+}
+
+export async function saveMessage(message: InsertMessage): Promise<Message> {
+  try {
+    const response = await api("POST", "/api/messages", message);
+    if (!response)      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error saving message:", error);
+    throw error;
+  }
+}
+
+export async function generateImage(request: ImageGenerationRequest): Promise<ImageGenerationResponse> {
+  try {
+    const response = await apiRequest("POST", "//images/generations", request);
+    if (!response.ok) {
+      throw new Error error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error generating image:", error);
+    throw error;
+  }
+}
