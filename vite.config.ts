@@ -1,1 +1,31 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAidml0ZSI7CmltcG9ydCByZWFjdCBmcm9tICJAdml0ZWpzL3BsdWdpbi1yZWFjdCI7CmltcG9ydCBwYXRoIGZyb20gInBhdGgiOwppbXBvcnQgcnVudGltZUVycm9yT3ZlcmxheSBmcm9tICJAcmVwbGl0L3ZpdGUtcGx1Z2luLXJ1bnRpbWUtZXJyb3ItbW9kYWwiOwoKLy8gQ2xvdWRmbGFyZSBQYWdlcyBjb21wYXRpYmlsaXR5OiBTZXQgY29ycmVjdCBiYXNlIHBhdGgKY29uc3QgaXNDbG91ZGZsYXJlID0gcHJvY2Vzcy5lbnYuQ0ZfUEFHRVMgPT09ICIxIiB8fCBwcm9jZXNzLmVudi5DRl9QQUdFU19VUkwgIT09IHVuZGVmaW5lZDsKCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyhhc3luYyAoKSA9PiAoewogIHBsdWdpbnM6IFsKICAgIHJlYWN0KCksCiAgICBydW50aW1lRXJyb3JPdmVybGF5KCksCiAgICAuLi4ocHJvY2Vzcy5lbnYuTk9ERV9FTlYgIT09ICJwcm9kdWN0aW9uIiAmJgogICAgcHJvY2Vzcy5lbnYuUkVQTF9JRCAhPT0gdW5kZWZpbmVkCiAgICAgID8gWwogICAgICAgICAgLy8gZHluYW1pYyBpbXBvcnQgZm9yIHBsdWdpbgogICAgICAgICAgKGF3YWl0IGltcG9ydCgiQHJlcGxpdC92aXRlLXBsdWdpbi1jYXJ0b2dyYXBoZXIiKSkuY2FydG9ncmFwaGVyKCksCiAgICAgICAgXQogICAgICA6IFtdKSwKICBdLAogIHJlc29sdmU6IHsKICAgIGFsaWFzOiB7CiAgICAgICJAIjogcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgImNsaWVudCIsICJzcmMiKSwKICAgICAgIkBzaGFyZWQiOiBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAic2hhcmVkIiksCiAgICAgICJAYXNzZXRzIjogcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgImF0dGFjaGVkX2Fzc2V0cyIpLAogICAgfSwKICB9LAogIHJvb3Q6IHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICJjbGllbnQiKSwKICBiYXNlOiBpc0Nsb3VkZmxhcmUgPyAiLyIgOiB1bmRlZmluZWQsIC8vIGltcG9ydGFudCBmb3IgQ0YgUGFnZXMKICBidWlsZDogewogICAgb3V0RGlyOiBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAiZGlzdC9wdWJsaWMiKSwKICAgIGVtcHR5T3V0RGlyOiB0cnVlLAogICAgYXNzZXRzRGlyOiAiYXNzZXRzIiwgLy8gZW5zdXJlIHN0YXRpYyBhc3NldHMgZ28gaW4gL2Rpc3QvcHVibGljL2Fzc2V0cwogICAgcm9sbHVwT3B0aW9uczogewogICAgICBvdXRwdXQ6IHsKICAgICAgICBlbnRyeUZpbGVOYW1lczogYGFzc2V0cy9bbmFtZV0uW2hhc2hdLmpzYCwKICAgICAgICBjaHVua0ZpbGVOYW1lczogYGFzc2V0cy9bbmFtZV0uW2hhc2hdLmpzYCwKICAgICAgICBhc3NldEZpbGVOYW1lczogYGFzc2V0cy9bbmFtZV0uW2hhc2hdW2V4dG5hbWVdYCwKICAgICAgfSwKICAgIH0sCiAgfSwKICBzZXJ2ZXI6IHsKICAgIHBvcnQ6IDMwMDAsCiAgICAvLyBGb3IgcHJldmlld2luZyBDbG91ZGZsYXJlIHBhZ2VzIGxvY2FsbHkKICAgIGhvc3Q6IHRydWUsCiAgICBmczogewogICAgICBhbGxvdzogW3BhdGgucmVzb2x2ZShfX2Rpcm5hbWUpXSwKICAgIH0sCiAgfSwKICBwcmV2aWV3OiB7CiAgICBwb3J0OiA0MTczLAogICAgaG9zdDogdHJ1ZSwKICB9LAp9KSk7
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import path from "path";
+import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
+
+export default defineConfig({
+  plugins: [
+    react(),
+    runtimeErrorOverlay(),
+    ...(process.env.NODE_ENV !== "production" &&
+    process.env.REPL_ID !== undefined
+      ? [
+          await import("@replit/vite-plugin-cartographer").then((m) =>
+            m.cartographer(),
+          ),
+        ]
+      : []),
+  ],
+  resolve: {
+    alias: {
+      "@": path.resolve(import.meta.dirname, "client", "src"),
+      "@shared": path.resolve(import.meta.dirname, "shared"),
+      "@assets": path.resolve(import.meta.dirname, "attached_assets"),
+    },
+  },
+  root: path.resolve(import.meta.dirname, "client"),
+  build: {
+    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    emptyOutDir: true,
+  },
+});
