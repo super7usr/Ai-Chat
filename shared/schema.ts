@@ -1,11 +1,20 @@
 import { pgTable, text, serial, integer, boolean, timestamp, jsonb } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
+import crypto from "crypto";
+
+/**
+ * Returns the SHA256 hash of the input string, base64 encoded.
+ * @param input - The input string to hash.
+ * @returns The base64-encoded SHA256 hash.
+ */
+export function hashBase64(input: string): string {
+  return crypto.createHash("sha256").update(input).digest("base64");
+}
 
 export const characters = pgTable("characters", {
   id: serial("id").primaryKey(),
-  name: text("name").notNull(),
-  age: integer("age").notNull(),
+  name: text  age: integer("age").notNull(),
   description: text("description").notNull(),
   welcomeMessage: text("welcome_message").notNull(),
   imageUrl: text("image_url").notNull(),
@@ -48,8 +57,7 @@ export const users = pgTable("users", {
 });
 
 export const insertUserSchema = createInsertSchema(users).pick({
-  username: true,
-  password: true,
+  username: true  password: true,
 });
 
 export type InsertUser = z.infer<typeof insertUserSchema>;
