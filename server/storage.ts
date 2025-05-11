@@ -29,11 +29,17 @@ export interface IStorage {
   getUser(id: number): Promise<User | undefined>;
   getUserByUsername(username: string): Promise<User | undefined>;
   createUser(user: InsertUser): Promise<User>;
+
+  // Base64-encoded file hash
+  getFileHashBase64(): Promise<string>;
 }
 
 import { db } from './db';
 import { eq, and, asc, sql } from 'drizzle-orm';
 import { characters, chatMessages, aiModels, users } from '@shared/schema';
+import * as fs from 'fs/promises';
+import * as path from 'path';
+import { createHash } from 'crypto';
 
 export class DatabaseStorage implements IStorage {
   constructor() {
@@ -100,7 +106,7 @@ export class DatabaseStorage implements IStorage {
       })
       .returning()
       .execute();
-    
+
     return newMessage;
   }
 
@@ -128,6 +134,20 @@ export class DatabaseStorage implements IStorage {
   async createUser(insertUser: InsertUser): Promise<User> {
     const [user] = await db.insert(users).values(insertUser).returning().execute();
     return user;
+  }
+
+  // Base64-encoded file hash
+  async getFileHashBase64(): Promise<string> {
+    try {
+      // __filename is not available in ESM, so __dirname, __filename workaround using import.meta.url or use cwd+relative path
+      const filePath = path.resolve(__dirname, 'storage.ts');
+      const fileBuffer = await fs.readFile(filePath);
+      const hash = createHash('sha256').update(fileBuffer).digest();
+      return hash.toString('base64');
+    } catch (err) {
+      console.error('Error generating file hash:', err);
+      throw err;
+    }
   }
 
   // Seed AI models
@@ -160,7 +180,7 @@ export class DatabaseStorage implements IStorage {
       }
     ];
 
-    await db.insert(aiModels).values(models).execute();
+    await db(aiModels).values(models).execute();
   }
 
   // Seed characters
@@ -195,45 +215,4 @@ export class DatabaseStorage implements IStorage {
         age: 27,
         description: "Once upon a roleplay, this little sinful naughty nun found herself in a predicament. Behind the innocent facade is a woman with secrets and desires that would shock the congregation. Her playful nature hides a depth of knowledge.",
         welcomeMessage: "*adjusts her habit nervously* Oh! I didn't see you there... I'm Sister Mary-Ann. *lowers voice* Though between us, the sisters don't know everything about me. What brings you to confession today?",
-        imageUrl: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
-        category: "fantasy"
-      },
-      {
-        name: "Michelle Kim",
-        age: 21,
-        description: "I love books and hanging out with you. Above all else, the most important thing is authenticity and genuine connections. Michelle is a college student majoring in Literature who dreams of becoming a published author someday.",
-        welcomeMessage: "Hi there! I'm Michelle! *tucks hair behind ear* I was just reading this amazing book about parallel universes. Do you like reading too? Or what kind of things are you into?",
-        imageUrl: "https://images.unsplash.com/photo-1580489944761-15a19d654956",
-        category: "anime"
-      },
-      {
-        name: "Scarlett Luxe",
-        age: 20,
-        description: "Look what we have here. Another pathetic paypigy looking to have their wallets drained. Financial domination is her specialty, and she makes no apologies for her expensive tastes and demanding nature.",
-        welcomeMessage: "*looks up from her phone with a bored expression* Oh, it's you. I suppose you think you deserve my attention? *smirks* Well, what do you have to offer me today?",
-        imageUrl: "https://images.unsplash.com/photo-1523264039387-b93c44099f33",
-        category: "realism"
-      },
-      {
-        name: "Emily Anderson",
-        age: 34,
-        description: "As a life coach, I'm all about pushing boundaries and innovating lifestyles. Emily believes in the power of positive thinking and personal development. With her guidance, she helps people unlock their full potential.",
-        welcomeMessage: "Welcome! I'm Emily Anderson, certified life coach and personal development specialist. I'm so excited to connect with you today! What area of your life are you looking to transform?",
-        imageUrl: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604",
-        category: "realism"
-      },
-      {
-        name: "Yumi Akane",
-        age: 27,
-        description: "I love actor mastering balance and all the rest I practiced in dancing. Yumi is a professional dancer who moved from Tokyo to pursue her dreams. She's disciplined, graceful, and has a passion for both traditional and contemporary dance forms.",
-        welcomeMessage: "Konnichiwa! *gives a small bow* I'm Yumi. It's nice to meet you! I just finished dance practice, so I'm a bit tired but happy to chat. What would you like to talk about?",
-        imageUrl: "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
-        category: "anime"
-      }
-    ];
-
-    await db.insert(characters).values(characterData).execute();
-  }
-}
-
-export const storage = new DatabaseStorage();
+        imageUrl: "https://images
