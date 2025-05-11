@@ -1,1 +1,85 @@
-aW1wb3J0IGV4cHJlc3MsIHsgdHlwZSBFeHByZXNzIH0gZnJvbSAiZXhwcmVzcyI7CmltcG9ydCBmcyBmcm9tICJmcyI7CmltcG9ydCBwYXRoIGZyb20gInBhdGgiOwppbXBvcnQgeyBjcmVhdGVTZXJ2ZXIgYXMgY3JlYXRlVml0ZVNlcnZlciwgY3JlYXRlTG9nZ2VyIH0gZnJvbSAidml0ZSI7CmltcG9ydCB7IHR5cGUgU2VydmVyIH0gZnJvbSAiaHR0cCI7CmltcG9ydCB2aXRlQ29uZmlnIGZyb20gIi4uL3ZpdGUuY29uZmlnIjsKaW1wb3J0IHsgbmFub2lkIH0gZnJvbSAibmFub2lkIjsKCmNvbnN0IGNyZWF0ZUxvZ2dlckluc3RhbmNlID0gY3JlYXRlTG9nZ2VyOwoKLyoqCiAqIExvZ3MgbWVzc2FnZXMgd2l0aCB0aW1lc3RhbXAgYW5kIHNvdXJjZS4KICovCmV4cG9ydCBmdW5jdGlvbiBsb2cobWVzc2FnZTogc3RyaW5nLCBzb3VyY2UgPSAiZXhwcmVzcyIpIHsKICBjb25zdCBmb3JtYXR0ZWRUaW1lID0gbmV3IERhdGUoKS50b0xvY2FsZVRpbWVTdHJpbmcoImVuLVVTIiwgewogICAgaG91cjogIm51bWVyaWMiLAogICAgbWludXRlOiAiMi1kaWdpdCIsCiAgICBzZWNvbmQ6ICIyLWRpZ2l0IiwKICAgIGhvdXIxMjogdHJ1ZSwKICB9KTsKICBjb25zb2xlLmxvZyhgJHtmb3JtYXR0ZWRUaW1lfSBbJHtzb3VyY2V9XSAke21lc3NhZ2V9YCk7Cn0KCi8qKgogKiBVdGlsaXR5IHRvIGRldGVjdCBpZiB3ZSdyZSBydW5uaW5nIG9uIENsb3VkZmxhcmUgUGFnZXMgKHByb2R1Y3Rpb24pLgogKiBPbiBDbG91ZGZsYXJlLCBwcm9jZXNzLmVudi5OT0RFX0VOViBzaG91bGQgYmUgJ3Byb2R1Y3Rpb24nCiAqIGFuZCB0aGUgIkNGX1BBR0VTIiBlbnYgbWF5IGJlIHNldC4KICovCmZ1bmN0aW9uIGlzQ2xvdWRmbGFyZVBhZ2VzKCkgewogIHJldHVybiAoCiAgICBwcm9jZXNzLmVudi5DRl9QQUdFUyA9PT0gIjEiIHx8CiAgICBwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gInByb2R1Y3Rpb24iIHx8CiAgICBwcm9jZXNzLmVudi5DTE9VREZMQVJFX1BBR0VTID09PSAiMSIgfHwKICAgICEhcHJvY2Vzcy5lbnYuQ0ZfUEFHRVNfVVJMCiAgKTsKfQoKLyoqCiAqIFNldHVwIFZpdGUgZGV2ZWxvcG1lbnQgbWlkZGxld2FyZSAob25seSBydW5zIGluIGRldikKICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzZXR1cFZpdGUoYXBwOiBFeHByZXNzLCBzZXJ2ZXI6IFNlcnZlcikgewogIC8vIElmIHJ1bm5pbmcgb24gQ2xvdWRmbGFyZSBQYWdlcywgc2tpcCBWaXRlIGRldiBzZXJ2ZXIgc2V0dXAKICBpZiAoaXNDbG91ZGZsYXJlUGFnZXMoKSkgewogICAgbG9nKCJSdW5uaW5nIG9uIENsb3VkZmxhcmUgUGFnZXMgLSBza2lwcGluZyBWaXRlIGRldiBtaWRkbGV3YXJlIiwgInZpdGUiKTsKICAgIHJldHVybjsKICB9CgogIGNvbnN0IHNlcnZlck9wdGlvbnMgPSB7CiAgICBtaWRkbGV3YXJlTW9kZTogdHJ1ZSwKICAgIGhtcjogeyBzZXJ2ZXIgfSwKICAgIGFsbG93ZWRIb3N0czogdHJ1ZSwKICB9OwoKICBjb25zdCB2aXRlID0gYXdhaXQgY3JlYXRlVml0ZVNlcnZlcih7CiAgICAuLi52aXRlQ29uZmlnLAogICAgY29uZmlnRmlsZTogZmFsc2UsCiAgICBjdXN0b21Mb2dnZXI6IHsKICAgICAgLi4udml0ZUNvbmZpZy5sb2dnZXIsCiAgICAgIGVycm9yOiAobXNnLCBvcHRpb25zKSA9PiB7CiAgICAgICAgdml0ZUNvbmZpZy5sb2dnZXIuZXJyb3IobXNnLCBvcHRpb25zKTsKICAgICAgICBwcm9jZXNzLmV4aXQoMSk7CiAgICAgIH0sCiAgICB9LAogICAgc2VydmVyOiBzZXJ2ZXJPcHRpb25zLAogICAgYXBwVHlwZTogImN1c3RvbSIsCiAgfSk7CgogIGFwcC51c2Uodml0ZS5taWRkbGV3YXJlcyk7CgogIC8vIERldiBTU1IvSFRNTCBoYW5kbGVyIGFzIGZhbGxiYWNrIChjbGllbnQgaXMgcmVsb2FkZWQgaW4gZGV2KQogIGFwcC51c2UoIi8qIiwgYXN5bmMgKHJlcSwgcmVzLCBuZXh0KSA9PiB7CiAgICBjb25zdCB1cmwgPSByZXEub3JpZ2luYWxVcmw7CiAgICB0cnkgewogICAgICBjb25zdCBjbGllbnRUZW1wbGF0ZSA9IHBhdGgucmVzb2x2ZSgKICAgICAgICBpbXBvcnQubWV0YS5kaXIgfHwgX19kaXJuYW1lLAogICAgICAgICIuLiIsCiAgICAgICAgImNsaWVudCIsCiAgICAgICAgImluZGV4Lmh0bWwiLAogICAgICApOwogICAgICAvLyBBbHdheXMgcmVsb2FkIHRlbXBsYXRlIGZyb20gZGlzayAoZm9yIGhvdCB1cGRhdGVzKQogICAgICBsZXQgdGVtcGxhdGUgPSBhd2FpdCBmcy5wcm9taXNlcy5yZWFkRmlsZShjbGllbnRUZW1wbGF0ZSwgInV0Zi04Iik7CiAgICAgIHRlbXBsYXRlID0gdGVtcGxhdGUucmVwbGFjZSgKICAgICAgICBgc3JjPSIvc3JjL21haW4udHN4ImAsCiAgICAgICAgYHNyYz0iL3NyYy9tYWluLnRzeD92PSR7bmFub2lkKCl9ImAKICAgICAgKTsKICAgICAgLy8gVml0ZSB0cmFuc2Zvcm0KICAgICAgY29uc3QgcGFnZSA9IGF3YWl0IHZpdGUudHJhbnNmb3JtSW5kZXhIdG1sKHVybCwgdGVtcGxhdGUpOwogICAgICByZXMuc3RhdHVzKDIwMCkuc2V0KHsgIkNvbnRlbnQtVHlwZSI6ICJ0ZXh0L2h0bWwiIH0pLmVuZChwYWdlKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgdml0ZS5zc3JGaXhTdGFja3RyYWNlKGUgYXMgRXJyb3IpOwogICAgICBuZXh0KGUpOwogICAgfQogIH0pOwp9CgovKioKICogU2VydmUgc3RhdGljIGZpbGVzIGFuZCBoYW5kbGUgYWxsIHJvdXRlcyBpbiBwcm9kdWN0aW9uIChDbG91ZGZsYXJlIFBhZ2VzIGV0YykuCiAqIFRoaXMgaXMgbmVlZGVkIGZvciBzZXJ2aW5nIGBpbmRleC5odG1sYCBmYWxsYmFjayBvbiBDbG91ZGZsYXJlIFBhZ2VzIGFuZCBvdGhlciBob3N0cy4KICoKICogSW1wcm92ZW1lbnRzIGZvciBDbG91ZGZsYXJlIFBhZ2VzOgogKiAtIEV4cGxpY2l0bHkgdXNlIGAvcHVibGljYCBhcyB0aGUgc3RhdGljIGRpciBmYWxsYmFjawogKiAtIFNob3cgYSBjbGVhciBlcnJvciBpZiB0aGUgc3RhdGljIGRpcmVjdG9yeSBpc24ndCBidWlsdC91cGxvYWRlZAogKi8KZXhwb3J0IGZ1bmN0aW9uIHNlcnZlU3RhdGljKGFwcDogRXhwcmVzcykgewogIC8vIE9uIENsb3VkZmxhcmUgUGFnZXMsIGxvb2sgZm9yIGRpc3Qgb3IgcHVibGljICh0cnkgYm90aCkKICBsZXQgZGlzdFBhdGggPSBwYXRoLnJlc29sdmUoaW1wb3J0Lm1ldGEuZGlyIHx8IF9fZGlybmFtZSwgInB1YmxpYyIpOwogIGlmICghZnMuZXhpc3RzU3luYyhkaXN0UGF0aCkpIHsKICAgIC8vIFRyeSBWaXRlIGRlZmF1bHQgYnVpbGQgb3V0IGRpcgogICAgZGlzdFBhdGggPSBwYXRoLnJlc29sdmUoaW1wb3J0Lm1ldGEuZGlyIHx8IF9fZGlybmFtZSwgIi4uIiwgImRpc3QiKTsKICB9CiAgaWYgKCFmcy5leGlzdHNTeW5jKGRpc3RQYXRoKSkgewogICAgdGhyb3cgbmV3IEVycm9yKAogICAgICBgQ291bGQgbm90IGZpbmQgdGhlIGJ1aWxkIGRpcmVjdG9yeTogJHtkaXN0UGF0aH0sIG1ha2Ugc3VyZSB0byBidWlsZCB0aGUgY2xpZW50IGZpcnN0YAogICAgKTsKICB9CiAgYXBwLnVzZShleHByZXNzLnN0YXRpYyhkaXN0UGF0aCwgewogICAgbWF4QWdlOiBpc0Nsb3VkZmxhcmVQYWdlcygpID8gIjF5IiA6IDAsCiAgICBpbmRleDogZmFsc2UsCiAgfSkpOwoKICAvLyBDdXN0b20gNDA0IGhhbmRsZXIgaWYgZmlsZSBkb2Vzbid0IGV4aXN0OiBmYWxsYmFjayB0byBpbmRleC5odG1sIGZvciBTUEEgcm91dGluZwogIGFwcC51c2UoIi8qIiwgKF9yZXEsIHJlcykgPT4gewogICAgcmVzLnNlbmRGaWxlKHBhdGgucmVzb2x2ZShkaXN0UGF0aCwgImluZGV4Lmh0bWwiKSk7CiAgfSk7Cn0=
+import express, { type Express } from "express";
+import fs from "fs";
+import path from "path";
+import { createServer as createViteServer, createLogger } from "vite";
+import { type Server } from "http";
+import viteConfig from "../vite.config";
+import { nanoid } from "nanoid";
+
+const viteLogger = createLogger();
+
+export function log(message: string, source = "express") {
+  const formattedTime = new Date().toLocaleTimeString("en-US", {
+    hour: "numeric",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: true,
+  });
+
+  console.log(`${formattedTime} [${source}] ${message}`);
+}
+
+export async function setupVite(app: Express, server: Server) {
+  const serverOptions = {
+    middlewareMode: true,
+    hmr: { server },
+    allowedHosts: true,
+  };
+
+  const vite = await createViteServer({
+    ...viteConfig,
+    configFile: false,
+    customLogger: {
+      ...viteLogger,
+      error: (msg, options) => {
+        viteLogger.error(msg, options);
+        process.exit(1);
+      },
+    },
+    server: serverOptions,
+    appType: "custom",
+  });
+
+  app.use(vite.middlewares);
+  app.use("*", async (req, res, next) => {
+    const url = req.originalUrl;
+
+    try {
+      const clientTemplate = path.resolve(
+        import.meta.dirname,
+        "..",
+        "client",
+        "index.html",
+      );
+
+      // always reload the index.html file from disk incase it changes
+      let template = await fs.promises.readFile(clientTemplate, "utf-8");
+      template = template.replace(
+        `src="/src/main.tsx"`,
+        `src="/src/main.tsx?v=${nanoid()}"`,
+      );
+      const page = await vite.transformIndexHtml(url, template);
+      res.status(200).set({ "Content-Type": "text/html" }).end(page);
+    } catch (e) {
+      vite.ssrFixStacktrace(e as Error);
+      next(e);
+    }
+  });
+}
+
+export function serveStatic(app: Express) {
+  const distPath = path.resolve(import.meta.dirname, "public");
+
+  if (!fs.existsSync(distPath)) {
+    throw new Error(
+      `Could not find the build directory: ${distPath}, make sure to build the client first`,
+    );
+  }
+
+  app.use(express.static(distPath));
+
+  // fall through to index.html if the file doesn't exist
+  app.use("*", (_req, res) => {
+    res.sendFile(path.resolve(distPath, "index.html"));
+  });
+}
