@@ -1,1 +1,70 @@
-aW1wb3J0IGV4cHJlc3MsIHsgdHlwZSBSZXF1ZXN0LCBSZXNwb25zZSwgTmV4dEZ1bmN0aW9uIH0gZnJvbSAiZXhwcmVzcyI7CmltcG9ydCB7IHJlZ2lzdGVyUm91dGVzIH0gZnJvbSAiLi9yb3V0ZXMiOwppbXBvcnQgeyBzZXR1cFZpdGUsIHNlcnZlU3RhdGljLCBsb2cgfSBmcm9tICIuL3ZpdGUiOwoKY29uc3QgYXBwID0gZXhwcmVzcygpOwphcHAudXNlKGV4cHJlc3MuanNvbigpKTsKYXBwLnVzZShleHByZXNzLnVybGVuY29kZWQoeyBleHRlbmRlZDogZmFsc2UgfSkpOwoKYXBwLnVzZSgocmVxLCByZXMsIG5leHQpID0+IHsKICBjb25zdCBzdGFydCA9IERhdGUubm93KCk7CiAgY29uc3QgcGF0aCA9IHJlcS5wYXRoOwogIGxldCBjYXB0dXJlZEpzb25SZXNwb25zZTogUmVjb3JkPHN0cmluZywgYW55PiB8IHVuZGVmaW5lZCA9IHVuZGVmaW5lZDsKCiAgY29uc3Qgb3JpZ2luYWxSZXNKc29uID0gcmVzLmpzb247CiAgcmVzLmpzb24gPSBmdW5jdGlvbiAoYm9keUpzb24sIC4uLmFyZ3MpIHsKICAgIGNhcHR1cmVkSnNvblJlc3BvbnNlID0gYm9keUpzb247CiAgICByZXR1cm4gb3JpZ2luYWxSZXNKc29uLmFwcGx5KHJlcywgW2JvZHlKc29uLGFyZ3NdKTsKICB9OwoKICByZXMub24oImZpbmlzaCIsICgpID0+IHsKICAgIGNvbnN0IGR1cmF0aW9uID0gRGF0ZS5ub3coKSAtIHN0YXJ0OwogICAgaWYgKHBhdGguc3RhcnRzV2l0aCgiL2FwaSIpKSB7CiAgICAgIGxldCBsb2dMaW5lID0gYCR7cmVxLm1ldGhvZH0gJHtwYXRofSAke3Jlcy5zdGF0dXNDb2RlfSBpbiAke2R1cmF0aW9ufWA7CiAgICAgIGlmIChjYXB0dXJlZEpzb25SZXNwb25zZSkgewogICAgICAgIGxvZ0xpbmUgKz0gYCA6OiAke0pTT04uc3RyaW5naWZ5KGNhcHR1cmVkSnNvblJlc3BvbnNlKX1gOwogICAgICB9CgogICAgICBpZiAobG9nTGluZS5sZW5ndGggPiA4MCkgewogICAgICAgIGxvZ0xpbmUgPSBsb2dMaW5lLnNsaWNlKDAsIDc5KSArICLigKYiOwogICAgICB9CgogICAgICBsb2cobG9nTGluZSk7CiAgICB9CiAgfSk7CgogIG5leHQoKTsKfSk7CgooYXN5bmMgKCkgPT4gewogIGNvbnN0IHNlcnZlciA9IGF3YWl0IHJlZ2lzdGVyUm91dGVzKGFwcCk7CgogIGFwcC51c2UoKGVycjogYW55LCBfcmVxOiBSZXF1ZXN0LDogUmVzcG9uc2UsIF9uZXh0OiBOZXh0RnVuY3Rpb24pID0+ICAgIGNvbnN0IHN0YXR1cyA9IGVyci5zdGF0dXMgfHwgZXJyLnN0YXR1c0NvZGUgfHwgNTAwOwogICAgY29uc3QgbWVzc2FnZSA9IGVyci5tZXNzYWdlIHx8ICJJbnRlcm5hbCBTZXJ2ZXIgRXJyb3IiOwoKICAgIHJlcy5zdGF0dXMoc3RhdHVzKS4oeyBtZXNzYWdlIH0pOwogICAgdGhyb3cgZXJyOwogIH0pOwoKICBpZiAoYXBwLmdldCgiZW52IikgImRldmVsb3BtZW50IikgewogICAgYXdhaXQgc2V0dXBWaXRlKGFwcCwgc2VydmVyKTsKICB9IGVsc2UgewogICAgc2VydmVTdGF0aWMoYXBwKTsKICB9CgogIGNvbnN0IHBvcnQgPSBwcm9jZXNzLmVudi5QT1JUIHx8IDUwMDA7CiAgc2VydmVyLmxpc3Rlbih7CiAgICBwb3J0LAogICAgaG9zdDogIjAuMC4wLjAiLAogICAgcmV1c2VQb3J0OiB0cnVlLAogIH0sICgpID0+IHsKICAgIGxvZyhgc2VydmluZyBvbiBwb3J0ICR7cG9ydH1gKTsKICB9KTsKfSkoKTs=
+import express, { type Request, Response, NextFunction } from "express";
+import { registerRoutes } from "./routes";
+import { setupVite, serveStatic, log } from "./vite";
+
+const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
+app.use((req, res, next) => {
+  const start = Date.now();
+  const path = req.path;
+  let capturedJsonResponse: Record<string, any> | undefined = undefined;
+
+  const originalResJson = res.json;
+  res.json = function (bodyJson, ...args) {
+    capturedJsonResponse = bodyJson;
+    return originalResJson.apply(res, [bodyJson, ...args]);
+  };
+
+  res.on("finish", () => {
+    const duration = Date.now() - start;
+    if (path.startsWith("/api")) {
+      let logLine = `${req.method} ${path} ${res.statusCode} in ${duration}ms`;
+      if (capturedJsonResponse) {
+        logLine += ` :: ${JSON.stringify(capturedJsonResponse)}`;
+      }
+
+      if (logLine.length > 80) {
+        logLine = logLine.slice(0, 79) + "…";
+      }
+
+      log(logLine);
+    }
+  });
+
+  next();
+});
+
+(async () => {
+  const server = await registerRoutes(app);
+
+  app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
+    const status = err.status || err.statusCode || 500;
+    const message = err.message || "Internal Server Error";
+
+    res.status(status).json({ message });
+    throw err;
+  });
+
+  // importantly only setup vite in development and after
+  // setting up all the other routes so the catch-all route
+  // doesn't interfere with the other routes
+  if (app.get("env") === "development") {
+    await setupVite(app, server);
+  } else {
+    serveStatic(app);
+  }
+
+  // ALWAYS serve the app on port 5000
+  // this serves both the API and the client.
+  // It is the only port that is not firewalled.
+  const port = 5000;
+  server.listen({
+    port,
+    host: "0.0.0.0",
+    reusePort: true,
+  }, () => {
+    log(`serving on port ${port}`);
+  });
+})();
