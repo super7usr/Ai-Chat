@@ -87,7 +87,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const { model, messages, character } = req.body;
 
       // Make request to devsdocode API
-      const response = await fetch("https://api.devsdocode.com/v1/chat/completions", {
+      const response = await fetch("https://api.a4f.co/v1/chat/completions", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
